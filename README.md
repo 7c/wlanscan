@@ -5,7 +5,14 @@ Scan for wireless networks and print the results in JSON format. Uses go-wireles
 I needed a universal interface to the scan which `iw <iface> scan` does not provide.s
 
 
-### Usage
+### install
 ```
-./wlanscan
+go install github.com/7c/wlanscan@latest
+$ wlanscan
+```
+
+### compile
+```
+make build
+$ ./bin/wlanscan
 ```
